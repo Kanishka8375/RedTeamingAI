@@ -59,6 +59,14 @@ curl -X POST http://localhost:3000/v1/chat/completions \
   -d '{"model":"gpt-4o-mini","messages":[{"role":"user","content":"Hello"}]}'
 ```
 
+## Open-source edition note
+
+This repository intentionally excludes Stripe and payment/billing endpoints.
+
+- No payment provider keys are required in `.env`
+- No billing routes are exposed by the API server
+- No billing tables/columns are present in the default schema
+
 ## Open-source policy
 
 - License: **MIT** (`LICENSE`)
