@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Runtime SQLite artifacts
+*.db
+*.db-shm
+*.db-wal
+
+# Local npm lockfile for this scaffold repo
+package-lock.json
